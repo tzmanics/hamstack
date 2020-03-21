@@ -11,16 +11,18 @@ const routes: Routes = [
     loadChildren: () => import("./about/about.module").then(m => m.AboutModule)
   },
   {
-    path: "careers",
+    path: "contact",
     loadChildren: () =>
-      import("./careers/careers.module").then(m => m.CareersModule)
+      import("./contact/contact.module").then(m => m.ContactModule)
   },
   {
-    path: "publications",
+    path: "shop",
+    loadChildren: () => import("./shop/shop.module").then(m => m.ShopModule)
+  },
+  {
+    path: "projects",
     loadChildren: () =>
-      import("./publications/publications.module").then(
-        m => m.PublicationsModule
-      )
+      import("./projects/projects.module").then(m => m.ProjectsModule)
   }
 ];
 
