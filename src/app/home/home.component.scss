@@ -1,0 +1,66 @@
+.app-home {
+  background: url(https://bit.ly/2QLtEKB) no-repeat bottom center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-width: 722px;
+  overflow: auto;
+
+  h1 {
+    font-size: 80px;
+    margin: 50px 0 0 0;
+    text-align: center;
+  }
+}
+
+.home-words {
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 25px;
+  margin: 0 auto;
+  padding: 10px 10%;
+  p {
+    margin: 0;
+    text-align: center;
+  }
+}
+.home-box {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.7);
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 150px auto;
+  padding: 0;
+  width: 90%;
+}
+
+.home-card {
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+img,
+::ng-deep .mat-card-header-text {
+  font-size: 170%;
+  margin: 0 !important;
+  width: 100%;
+}
+
+@media (max-device-width: 480px) {
+  .app-home {
+    min-width: 0;
+    h1 {
+      font-size: 40px;
+    }
+  }
+
+  .home-box {
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  .home-card {
+    font-size: 20px;
+    width: 100%;
+  }
+}
