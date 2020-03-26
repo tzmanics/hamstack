@@ -1,6 +1,6 @@
 [build]
   command="ng build --prod"
-  publish="dist/hamstack"
+  publish="dist/static"
 [[redirects]]
   from ="/*"
   to="/index.html"
