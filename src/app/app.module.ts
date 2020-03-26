@@ -6,6 +6,7 @@ import { AppComponent } from "./app.component";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { NavigationComponent } from "./navigation/navigation.component";
 import { MatIconModule } from "@angular/material/icon";
+import { ScullyLibModule } from '@scullyio/ng-lib';
 
 @NgModule({
   declarations: [AppComponent, NavigationComponent],
@@ -13,7 +14,8 @@ import { MatIconModule } from "@angular/material/icon";
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatIconModule
+    MatIconModule,
+    ScullyLibModule
   ],
   providers: [],
   bootstrap: [AppComponent]
