@@ -23,7 +23,8 @@ const routes: Routes = [
     path: "projects",
     loadChildren: () =>
       import("./projects/projects.module").then(m => m.ProjectsModule)
-  }
+  },
+  { path: 'success', loadChildren: () => import('./form-success/form-success.module').then(m => m.FormSuccessModule) }
 ];
 
 @NgModule({
