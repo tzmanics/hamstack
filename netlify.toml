@@ -1,5 +1,5 @@
 [build]
-  command="ng build --prod"
+  command="npm run jamit"
   publish="dist/static"
 [[redirects]]
   from ="/*"
