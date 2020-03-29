@@ -8,12 +8,6 @@ exports.config = {
       title: {
         folder: "./blog-posts"
       }
-    },
-    '/blog/:slug': {
-      type: 'contentFolder',
-      slug: {
-        folder: "./blog"
-      }
-    },
+    }
   }
 };
