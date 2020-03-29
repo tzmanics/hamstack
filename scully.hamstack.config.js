@@ -1,12 +1,12 @@
 exports.config = {
   projectRoot: "./src",
   projectName: "hamstack",
-  outDir: './dist/static',
+  outDir: "./dist/static",
   routes: {
-    '/blog/:title': {
-      type: 'contentFolder',
+    "/blog/:title": {
+      type: "contentFolder",
       title: {
-        folder: "./blog-posts"
+        folder: "./blog"
       }
     }
   }
