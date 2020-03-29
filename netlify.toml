@@ -1,5 +1,5 @@
 [build]
-  command="npm run jamit"
+  command="npm run jam-prod"
   publish="dist/static"
 [[redirects]]
   from ="/*"
