@@ -1,5 +1,5 @@
 ---
-title: "whats-angular-in-the-jamstack" 
+title: "What's Angular in the JAMstack? It Sounds Delicious!"
 description: A guide to the JAMstack through an Angular lens.
 authors:
   - Tara Z. Manicsic
@@ -16,6 +16,7 @@ publish: true
 ---
 
 # What's Angular in the JAMstack? It Sounds Delicious!
+
 You may have heard about the [JAMstack](http://jamstack.org), it's been growing in popularity since [its conception](https://www.netlify.com/blog/2016/09/15/the-jamstack-origin-story/?utm_source=blog&utm_medium=jamstack-angular-intro_tzm&utm_campaign=devex). There are a ton of great articles, videos, and tutorials that explain the JAMstack. I wanted this post to specifically delve into the topic through Angular-colored glasses (which are, of course, rose-colored 🌹).
 
 ## The JAMstack Explained
