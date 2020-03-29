@@ -15,10 +15,6 @@ h1 {
   line-height: 56px;
 }
 
-.netlify-identity-button a {
-  text-decoration: none !important;
-}
-
 .main-menu {
   min-width: 525px;
   display: block;
@@ -32,10 +28,8 @@ h1 {
 }
 
 .main-menu a {
-  color: black;
   display: block;
   padding: 20px 15px;
-  text-decoration: none;
 }
 
 .main-menu a:hover,
