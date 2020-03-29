@@ -5,7 +5,7 @@ import {BlogComponent} from './blog.component';
 
 const routes: Routes = [
   {
-    path: ':slug',
+    path: ':title',
     component: BlogComponent,
   },
   {
