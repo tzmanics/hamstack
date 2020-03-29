@@ -1,5 +1,5 @@
 ---
-title: Building an Angular Jamstack App with Scully
+title: "building-an-angular-jamstack-app-with-scully" 
 description: "A getting started guide to using the Angular static site generator, Scully."
 authors:
   - Tara Z. Manicsic
@@ -15,6 +15,7 @@ canonical_url: https://www.netlify.com/blog/2019/12/17/building-an-angular-jamst
 publish: true
 ---
 
+# Building an Angular Jamstack App with Scully
 Angular finally has a static site generator!! 🎉 Thanks to the team at [HeroDevs](https://herodevs.com/) we now have [Scully](https://github.com/scullyio/scully/) to pre-render our Angular applications. You can learn more about it [in our Scully announcement post](https://www.netlify.com/blog/2019/12/16/introducing-scully-the-angular-static-site-generator?utm_source=blog&utm_medium=scully-code-post-tzm&utm_campaign=devex). HeroDevs just had a [live demo](https://www.youtube.com/watch?v=Sh37rIUL-d4) of their alpha release and I wanted to give you a companion code resource to cover everything that they announced.
 
 Today we'll:
